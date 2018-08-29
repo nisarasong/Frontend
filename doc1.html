@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Doc1</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+        <meta content="Coderthemes" name="author" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="images/logo.png">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+        <!-- jvectormap -->
+        <link href="css/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
+
+        <!-- App css -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/metismenu.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/style_light.css" rel="stylesheet" type="text/css"/>
+
+        <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
+
+        <script src="js/modernizr.min.js"></script>
+
+
+
+    </head>
+
+
+    <body>
+
+        <div id="wrapper">
+
+            <div class="topbar">
+                <nav class="navbar-custom">
+                    <a href="index.html" class="logo">
+                        <img src="images/01.png" width="220">
+                    </a>
+                    <ul class="float-right">
+                        <a class="nav-link">
+                            <i class="fas fa-user-circle f24"></i>
+                        </a> 
+                    </ul>
+                    <button class="button-menu-mobile"><img src="images/icon_hamburger.png"></button>
+                </nav>
+            </div>
+
+            <!-- ============================================================== -->          
+            <div class="left side-menu">
+                <div class="slimscroll-menu" id="remove-scroll">
+                    <div id="sidebar-menu">
+                        <ul class="metismenu" id="side-menu">
+                            <li class="menu-title">บริการข้อมูล</li>
+                            <li>
+                                <a href="javascript: void(0);">ข้อมูลทั่วไป</a>
+                            </li>
+                            <li>
+                                <a href="javascript: void(0);">ศักยภาพพลังงาน</a>
+                            </li>
+                            <li>
+                                <a href="javascript: void(0);">โครงสร้างพื้นฐานด้านพลังงาน</a>
+                            </li>
+                            <li>
+                                <a href="javascript: void(0);">การใช้พลังงาน</a>
+                            </li>
+                            <li>
+                                <a href="javascript: void(0);">ดัชนีชี้วัดมิติต่างๆ</a>
+                            </li>
+                            <li>
+                                <a href="javascript: void(0);">ปริมาณสำรองปิโตรเลียม</a>
+                            </li>
+                            <li>
+                                <a href="javascript: void(0);">โครงการด้านพลังงาน</a>
+                            </li>
+                            <li>
+                                <a href="javascript: void(0);">ข้อมูลวิสาหกิจชุมชนรายจังหวัด</a>
+                            </li>
+                            <li>
+                                <a href="javascript: void(0);">ติดต่อพลังงานจังหวัด</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ============================================================== -->
+
+            <div class="content-page">
+                <div class="content">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <div class="page-title-box1">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="#">หน้าแรก</a></li>
+                                        <li class="breadcrumb-item"><a href="#">ศักยภาพพลังงาน</a></li>
+                                    </ol>
+                                    <h1>ศักยภาพพลังงาน
+                                        <button type="button" class="btn btn-icon float-right"><i class="fas fa-font"></i></button>
+                                        <button type="button" class="btn btn-icon float-right"><i class="fas fa-font"></i></button>
+                                        <button type="button" class="btn btn-icon float-right"><i class="fas fa-print"></i></button>
+                                    </h1>
+                                </div>
+
+                                <div class="page-title-box text-center">
+                                    <button type="button" class="btn btn-secondary w-md">ศักยภาพพลังงานทดแทน</button>
+                                    <button type="button" class="btn btn-secondary w-md">ศักยภาพการอนุรักษ์พลังงาน</button>
+                                </div>
+
+                                <div class="page-title-box">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                        ระดับจังหวัด<span class="glyphicon glyphicon-chevron-down m-l-70"></span></button>
+
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >
+                                        เชียงใหม่<span class="glyphicon glyphicon-chevron-down m-l-70"></span></button>
+
+                                    <div class="float-right">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                            ปี 2559<span class="caret m-l-5"></span></button>
+                                        <a class="btn btn-warning">โหลดข้อมูล</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-5 col-sm-12">
+                                <div class="card-box text-center hi100">
+                                    <div class="card-box3">
+                                        <div class="" style="height: 800px" id="world-map-markers"></div>
+                                    </div></div></div>
+
+                            <div class="col-md-7 col-sm-12">
+                                <div class="card-box hi100">
+                                    <h1>จังหวัดเชียงใหม่ <button type="button" class="btn btn-secondary float-right">ค้นหาข้อมูลแบบละเอียด</button></h1><br>
+                                    <h2>กลุ่มจังหวัดภาคเหนือตอนบน 1</h2><br>
+                                    <button type="button" class="btn btn-default dropdown-toggle waves-effect text-right" data-toggle="dropdown" aria-expanded="false">
+                                        พันตันเทียบเท่าน้ำมันดิบ (ktoe).<span class="caret m-l-5"></span></button><br><br>
+
+                                    <div class="card-box2">
+                                        <h4 class="header-title2 m-t-0 m-b-30">ข้อมูล ณ วันที่: 15 พฤศจิกายน 2560</h4>
+                                        <div class="" style="height:320px" id="platform_type_dates_donut"></div>
+
+                                    </div></div>
+                            </div>
+
+                        </div> 
+
+                    </div> 
+
+
+                </div>
+
+            </div><!-- END wrapper -->
+
+            <div class="foot">
+                <footer class="footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <a class="navbar-brand-footer"><img src="images/logo_thenergydata_col.png" alt="logo"></a><br><br>
+                                สงวนลิขสิทธ์ พ.ศ. 2559-2560 ฐานข้อมูลพลังงานในประเทศไทย (THAI ENRGY DATA)<br>
+                                โทรศัพท์: 08-1992-3453 อีเมล:example@email.com<br><br>
+
+                                พัฒนาโดย ศูนย์วิจัยเทคโนโลยีพลังงานเพื่อสิ่งแวดล้อม คณะวิศวกรรมศาสตร์ มหาวิทยาลัยเชียงใหม่
+                            </div>
+                            <div class="col-md-2 col-sm-6"><br>
+                                <b>เกี่ยวกับเรา</b><br><br>
+                                ความเป็นมา<br>
+                                ประวัติกระทรวงพลังงาน<br>
+                                ติดต่อสื่อสาร
+                            </div>
+                            <div class="col-md-2 col-sm-6"><br>
+                                <b>Links</b><br><br>
+                                คู่มือใช้งาน<br>
+                                Sitemap
+                            </div>
+
+                        </div> 
+
+                    </div> 
+            </div>
+        </footer> 
+
+
+
+
+
+
+        <!-- jQuery  -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script> <!-- Popper for Bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/metisMenu.min.js"></script>
+        <script src="js/waves.js"></script>
+        <script src="js/jquery.slimscroll.js"></script>
+
+        <!-- chart -->
+        <script src="js/echarts-all.js"></script>
+        <script src="js/jquery.echart.init.js"></script>
+
+        <!-- map -->
+        <script src="js/jquery-jvectormap-2.0.2.min.js"></script>
+        <script src="js/gdp-data.js"></script>
+        <script src="js/jquery-jvectormap-world-mill-en.js" type="text/javascript"></script>
+        <script src="js/jquery.jvectormap.init.js"></script>
+
+        <!-- App js -->
+        <script src="js/jquery.core.js"></script>
+        <script src="js/jquery.app.js"></script>
+
+</body>
+</html>

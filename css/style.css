@@ -1,0 +1,645 @@
+
+body {
+    font-family: 'noto_sans_thai', sans-serif;
+    font-size: 14px;
+}
+
+/* ตัวหนา */
+@font-face {
+    font-family: 'noto_sans_thai';
+    src: url('../fonts/notosansthai-bold-webfont.eot');
+    src: url('../fonts/notosansthai-bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/notosansthai-bold-webfont.woff2') format('woff2'),
+        url('../fonts/notosansthai-bold-webfont.woff') format('woff'),
+        url('../fonts/notosansthai-bold-webfont.ttf') format('truetype'),
+        url('../fonts/notosansthai-bold-webfont.svg#noto_sans_thaibold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+/* ตัวปกติ */
+@font-face {
+    font-family: 'noto_sans_thai';
+    src: url('../fonts/notosansthai-regular-webfont.eot');
+    src: url('../fonts/notosansthai-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/notosansthai-regular-webfont.woff2') format('woff2'),
+        url('../fonts/notosansthai-regular-webfont.woff') format('woff'),
+        url('../fonts/notosansthai-regular-webfont.ttf') format('truetype'),
+        url('../fonts/notosansthai-regular-webfont.svg#noto_sans_thairegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1,
+h2{
+    font-family: 'Prompt', sans-serif;
+}
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'noto_sans_thai', sans-serif;
+}
+
+
+.h2, h2 {
+    font-size: 30px;
+}
+
+.h3, h3 {
+    font-size: 24px;
+}
+
+.h4, h4 {
+    font-size: 18px;
+    font-family: 'Prompt', sans-serif;
+}
+.h4, .h5, .h6, h4, h5, h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section {
+    padding: 60px !important ;
+    background-size: cover; 
+    background-position: 100%;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+}
+
+.bg-light {
+    background-image: url('../images/services-bg.png');
+}
+.pp{
+    color: #838383;
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Prompt', sans-serif;
+
+}
+.ppp{
+    color: #f23e12;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    font-family: 'noto_sans_thai', sans-serif;
+
+}
+.p2{
+    color: #838383;
+    font-size: 26px;
+    margin-bottom: 50px;
+    font-family: 'Prompt', sans-serif;
+}
+.a{
+    margin-left: 10px;
+}
+.b{
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Prompt', sans-serif;
+
+}
+.c{
+    color: #000;
+    font-size: 16px;
+    font-family: 'noto_sans_thai', sans-serif;
+    margin-bottom: 40px;
+
+}
+p {
+    color: #ffffff;
+    font-size: 16px;
+}
+.p-t-50 {
+    padding-top: 50px;
+}
+.pt40 {
+    padding-top: 40px;
+}
+.pb0 {
+    padding-bottom: 0px;
+}
+.m-t-20 {
+    margin-top: 20px;
+}
+/* ---- Width-Sizes ---*/
+
+.w-xs {
+    min-width: 80px;
+}
+.w-sm {
+    min-width: 95px;
+}
+.w-md {
+    min-width: 110px;
+}
+.w-lg {
+    min-width: 140px;
+}
+.title {
+    font-weight: 400;
+}
+.section-title {
+    color: #838383;
+    font-size: 18px;
+}
+.text{
+    text-align: left;
+    margin-top: 130px;
+
+}
+
+.eiei {
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 5px;
+    min-height: 48px!important;
+    background: #efc213; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top,  #efc213,#f23e12); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom #efc213,#f23e12,#eb7c11 ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom #efc213,#f23e12,#eb7c11); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom #efc213,#f23e12,#eb7c11); /* Standard syntax */
+    color: #fff; 
+}
+.btn-signup {
+    padding: 10px 20px !important;
+    border-radius: 3px;
+    margin-top: 4px;
+    margin-left: 15px;
+    font-weight: 700;
+}
+
+.carousel-indicators li {
+    border: 1px solid #333b4d;
+}
+.carousel-indicators .active {
+    background: #333b4d;
+}
+.carousel-inner>.item {
+    margin-top: -2px;
+}
+.font-xl {
+    font-size: 240px;
+}
+.eiei h1 {
+    margin: 100px 0 0px 0;
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.eiei h4 {
+    margin-bottom: 0px;
+    color: #ffffff;
+    line-height: 0px;
+}
+.use-btn {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    padding: 15px 40px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.navbar-custom {
+    margin: 0px auto;
+}
+.navbar-custom ul li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 1px;
+
+}
+.navbar-brand {
+    color: #fff;
+    font-size: 24px;
+}
+.navbar-brand span {
+    color: #eb7c11;
+}
+
+.navbar-brand i {
+    font-size: 15px;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-item{
+        margin: 0px auto;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        font-family: 'Prompt', sans-serif;
+    }
+}
+.features-2 {
+    min-height: 60px;
+    margin-top: 30px;
+}
+.features-2 img {
+    max-width: 52px;
+    margin: 0px auto;
+    vertical-align: bottom;
+}
+.nav>li>a:focus,
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: #3bc0c3;
+}
+.navbar-toggler .icon-bar {
+    background-color: #ffffff;
+}
+.content-wrap {
+    position: relative;
+    color: #bdc3c7;
+    overflow: hidden;
+}
+.content-wrap h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #3f3f4d;
+}
+.content-wrap p {
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #999;
+}
+.dark-bg {
+    text-align: center;
+}
+.wrapper-lg {
+    padding: 120px 0;
+}
+.signup-divider .form-group,
+.fast-reg .form-group {
+    width: 25%;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+.signup-divider .form-control,
+.fast-reg .form-control,
+.earlyaccess .form-control {
+    background: transparent;
+    border: 2px solid #444;
+    font-weight: 400;
+    font-size: 14px;
+    height: 50px;
+    color: #444;
+}
+.sign-title {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 28px;
+}
+.text-white {
+    color: #444;
+}
+.featured-img img {
+    margin: 0px auto;
+}
+.price_card {
+    background: #fafafa;
+    position: relative;
+    padding-bottom: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.header {
+    color: rgb(255, 255, 255);
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.price {
+    width: 100%;
+    font-size: 60px;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+    padding: 30px 0 10px;
+}
+.name {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    padding: 0 0 30px;
+}
+.price-features {
+    list-style: none;
+    text-align: center;
+    color: rgb(138, 138, 138);
+    margin: 0;
+    padding: 0;
+}
+.price-features li {
+    margin: 0 35px;
+    padding: 20px 15px;
+}
+.price-features li:not(:last-child) {
+    border: 1px solid rgb(242, 242, 242);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.price_card button {
+    margin-top: 20px;
+}
+.tip {
+    position: absolute;
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    margin: 10px 5px;
+}
+.client-list img {
+    max-width: 200px;
+    height: auto;
+}
+.footer {
+    background-color: #af2300;
+    padding: 20px 0px;
+    color: #ffffff;
+    font-size: 12px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.footer .navbar-brand-footer {
+    line-height: 50px;
+}
+.footer p {
+    margin-top: 50px;
+    color: rgba(202, 205, 210, 0.59);
+}
+.footer .navbar-footer {
+    float: right;
+}
+
+.footer .navbar-nav li a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .eiei {
+        padding-top: 0;
+        min-height: 650px;
+    }
+
+    .footer .navbar-brand-footer {
+        text-align: center;
+    }
+    .footer .navbar-nav {
+        float: none;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 640px) {
+    .price_card {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* =============
+   Buttons
+============= */
+.btn {
+    border-radius: 2px;
+    font-size: 15px;
+    padding: 10px 18px;
+    outline: none !important;
+}
+.btn-custom {
+    background-color: #64c5b1;
+    border-color: #64c5b1;
+    color: #ffffff !important;
+}
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom:focus,
+.btn-custom:hover,
+.open > .dropdown-toggle.btn-custom {
+    background-image: url('../images/icon_hamburger.png');
+}
+.button {
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ffffff;
+
+}
+
+
+/* =============
+  hr
+============= */
+hr {
+    height: .5px;
+    background: #ffffff;
+    border: 1;
+    margin: 0px auto;
+}
+
+
+
+/* =============
+   Calendar
+============= */
+.calendar {
+    float: left;
+    margin-bottom: 0;
+    font-family: 'Prompt', sans-serif;
+}
+
+.fc-view {
+    margin-top: 30px;
+}
+
+.none-border .modal-footer {
+    border-top: none;
+}
+
+.fc-toolbar {
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.fc-toolbar h2 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Prompt', sans-serif;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.fc-day-grid-event .fc-time {
+    font-family: 'Prompt', sans-serif;
+}
+
+.fc-day {
+    background: #ffffff;
+}
+
+.fc-toolbar .fc-state-active, .fc-toolbar .ui-state-active,
+.fc-toolbar button:focus, .fc-toolbar button:hover,
+.fc-toolbar .ui-state-hover {
+    z-index: 0;
+}
+
+.fc th.fc-widget-header {
+    background: #e2e2e2;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.fc-unthemed th, .fc-unthemed td, .fc-unthemed thead, .fc-unthemed tbody, .fc-unthemed .fc-divider, .fc-unthemed .fc-row, .fc-unthemed .fc-popover {
+    border-color: #e2e2e2;
+}
+
+.fc-button {
+    background: #d9d9d9;
+    border: none;
+    color: #797979;
+    text-transform: capitalize;
+    box-shadow: none !important;
+    border-radius: 3px !important;
+    margin: 0 3px !important;
+    padding: 6px 12px !important;
+    height: auto !important;
+}
+
+.fc-text-arrow {
+    font-size: 16px;
+}
+
+.fc-state-hover {
+    background: #f3f3f3;
+}
+
+.fc-state-highlight {
+    background: #f0f0f0;
+}
+
+.fc-state-down, .fc-state-active, .fc-state-disabled {
+    background-color: #f23e12 !important;
+    color: #ffffff !important;
+    text-shadow: none !important;
+}
+
+.fc-cell-overlay {
+    background: #f0f0f0;
+}
+
+.fc-unthemed .fc-today {
+    background: #ffffff;
+}
+
+.fc-event {
+    border-radius: 2px;
+    border: none;
+    cursor: move;
+    font-size: 13px;
+    margin: 5px 7px;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+.external-event {
+    cursor: move;
+    margin: 10px 0;
+    padding: 8px 10px;
+}
+
+.external-event.bg-primary {
+    background-color: rgba(68, 137, 228, 0.3) !important;
+    color: #4489e4;
+}
+
+.external-event.bg-success {
+    background-color: rgba(50, 200, 97, 0.3) !important;
+    color: #32c861;
+}
+
+.external-event.bg-info {
+    background-color: rgba(52, 211, 235, 0.3) !important;
+    color: #34d3eb;
+}
+
+.external-event.bg-warning {
+    background-color: rgba(255, 169, 28, 0.3) !important;
+    color: #ffa91c;
+}
+
+.external-event.bg-danger {
+    background-color: rgba(249, 106, 116, 0.3) !important;
+    color: #f96a74;
+}
+
+.external-event.bg-pink {
+    background-color: rgba(236, 103, 148, 0.3) !important;
+    color: #ec6794;
+}
+
+.external-event.bg-purple {
+    background-color: rgba(85, 83, 206, 0.3) !important;
+    color: #5553ce;
+}
+
+.external-event.bg-inverse {
+    background-color: rgba(54, 64, 76, 0.3) !important;
+    color: #36404c;
+}
+
+.fc-basic-view td.fc-week-number span {
+    padding-right: 8px;
+    font-weight: 700;
+    font-family: 'noto_sans_thai', sans-serif;
+}
+
+.fc-basic-view td.fc-day-number {
+    padding-right: 8px;
+    font-weight: 700;
+    font-family: 'noto_sans_thai', sans-serif;
+}
+
+.fc-basic-view .fc-content {
+    color: #ffffff;
+}
+
+/* =============
+    link
+============= */
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #eb7c11;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
